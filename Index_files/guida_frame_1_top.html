@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenido a Mi Página Web</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-image: url('IMAGENES/fondo.gif');
+      background-size: cover;
+      background-position: center;
+      color: rgb(255, 255, 255);
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      font-size: 36px;
+      color: rgb(192, 209, 255);
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .marquee {
+      background-color: rgb(255, 30, 0);
+      color: #333;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 5px;
+      width: 100%;
+      margin: 20px 0;
+      animation: marqueeAnimation 10s linear infinite;
+    }
+
+    @keyframes marqueeAnimation {
+      0% {
+        transform: translateX(100%);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 18px;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #ffcc00;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>¡Bienvenido a Mi Página Web!</h1>
+
+    <div class="marquee">Le presento mi página web, Mi nombre es victor ;) ¡Disfruta!</div>
+
+    <div class="footer">
+      <p>Creado por: victor jesus tamay uicab </p>
+    </div>
+  </div>
+
+</body>
+
+</html>

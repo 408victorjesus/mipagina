@@ -1,0 +1,62 @@
+#cabecera {background-color:;}
+#menu {background-color: rgb(231, 43, 231);}
+#contenido {background-color: ;}
+#pie {background-color: rgb(5, 44, 71);}
+
+#todo {
+    width: 860px;
+    margin: auto;
+}
+
+#menu li {display: inline;
+}
+
+#menu {
+   text-align: center;
+   margin-top: -40px;
+}
+
+#menu li {
+   padding: 15px;
+}
+
+#menu a {
+   color: white;
+   text-decoration: non;
+}
+
+  #contenido {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#contenido img {
+    float:left;
+    padding-right:15px;
+}
+
+
+h2 {
+text-align: center;
+color: #0099ff;
+}
+
+h3 {
+text-align: right;
+color: rgb(192, 15, 168);
+}
+
+
+#pie {
+ text-align: center;
+ } 
+
+body {
+ background-color: rgba(12, 103, 146, 0.505);
+}
+
+#contenido {
+ background-color: white;
+} 
